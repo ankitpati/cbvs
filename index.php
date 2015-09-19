@@ -23,6 +23,17 @@
             <h1>Criminal Background Verification System</h1>
 
 <?php
+    function isemail($email)
+    {
+        if(preg_match("/^[\w-]+(\.[\w-]+)*@([0-9a-z][0-9a-z-]*[0-9a-z]\.)+([a-z]{2,4})$/i", $email)){
+            $parts=explode("@", $email);
+            return checkdnsrr($parts[1], "MX");
+        }
+        return false;
+    }
+?>
+
+<?php
     function render_template()
     {
 ?>
