@@ -56,7 +56,6 @@ All code used in the prototype will be placed under the open source licence GNU 
 * Responsive design
 * Validates as much input as possible on client-side
 * Separate consoles for citizens and police
-* Interface hosted at http://ankitpati.org/cbvs
 
 **Web Server**
 * LAMP stack (CentOS 6.7, Apache, MySQL, PHP)
@@ -74,11 +73,3 @@ The prototype will be a fully functional system that can be migrated onto a publ
 
 ### Rewards
 The system is not specific to Pune, and can be adopted by police departments around the nation. This will lead to a reduction in crime rates.
-
-### Team
-* Ankit Pati
-* Majeed Khan
-* Ameya Gokhale
-* Karan Sharma
-* Oishi Chowdhury
-* Sanya Kamra
